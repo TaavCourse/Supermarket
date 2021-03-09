@@ -7,6 +7,7 @@ namespace Migration
 {
     class Program
     {
+        //---------------------------------------------
         static void Main(string[] args)
         {
             var serviceProvider = CreateServices();
@@ -17,7 +18,7 @@ namespace Migration
                 UpdateDatabase(scope.ServiceProvider);
             }
         }
-
+        //---------------------------------------------
         private static IServiceProvider CreateServices()
         {
             return new ServiceCollection()
@@ -30,12 +31,13 @@ namespace Migration
                 .AddLogging(lb => lb.AddFluentMigratorConsole())
                 .BuildServiceProvider(false);
         }
-
+        //---------------------------------------------
         private static void UpdateDatabase(IServiceProvider serviceProvider)
         {
             var runner = serviceProvider.GetRequiredService<IMigrationRunner>();
             runner.MigrateUp();
         }
+        //---------------------------------------------
     }
 
 

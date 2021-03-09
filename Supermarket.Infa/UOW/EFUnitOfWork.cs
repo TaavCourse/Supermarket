@@ -10,10 +10,11 @@ namespace Supermarket.Infa.UOW
         Task CompleteAsync();
     }
     //////////////////////////////////////////////////////
-    internal class EFUnitOfWork : UnitOfWork
+    public class EFUnitOfWork : UnitOfWork
     {
+        //---------------------------------------
         private readonly dbAppication _context;
-
+        //---------------------------------------
         public EFUnitOfWork()
         {
             _context = new dbAppication();

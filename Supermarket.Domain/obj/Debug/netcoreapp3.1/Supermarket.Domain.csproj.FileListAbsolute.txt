@@ -1,9 +1,9 @@
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\bin\Debug\netcoreapp3.1\Supermarket.Domain.deps.json
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\bin\Debug\netcoreapp3.1\Supermarket.Domain.dll
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\bin\Debug\netcoreapp3.1\Supermarket.Domain.pdb
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.csprojAssemblyReference.cache
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.AssemblyInfoInputs.cache
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.AssemblyInfo.cs
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.csproj.CoreCompileInputs.cache
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.dll
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.pdb
-C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Domain\obj\Debug\netcoreapp3.1\Supermarket.Domain.csprojAssemblyReference.cache

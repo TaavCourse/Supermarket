@@ -6,10 +6,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Supermarket.Appication.Goods;
+using Supermarket.Infa.UOW;
 using SuperMarket.Controllers;
-using SuperMarket.Controllers.Repository;
 using SuperMarket.Models;
-using SuperMarket.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,7 +49,7 @@ namespace SuperMarket
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            
             app.UseAuthorization();
             app.UseSwagger();
 

@@ -5640,9 +5640,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Appication.csproj",
-      "projectName": "Supermarket.Appication",
-      "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Appication.csproj",
+      "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Application.csproj",
+      "projectName": "Supermarket.Application",
+      "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Application.csproj",
       "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\obj\\",
       "projectStyle": "PackageReference",

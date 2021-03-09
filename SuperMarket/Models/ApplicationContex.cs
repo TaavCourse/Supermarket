@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
+using Supermarket.Domain.Goods;
 using SuperMarket.Models.EntityMapConfig;
 using System;
 using System.Collections.Generic;

@@ -88,6 +88,7 @@ C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\bin\Debug\netcore
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfoInputs.cache
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfo.cs
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CoreCompileInputs.cache
@@ -95,4 +96,3 @@ C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcore
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.dll
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.pdb
 C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.genruntimeconfig.cache
-C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache

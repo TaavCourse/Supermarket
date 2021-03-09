@@ -1,6 +1,5 @@
 ﻿using Supermarket.Infa;
 using Supermarket.Domain.Goods;
-using Supermarket.Infa;
 using System;
 using System.Collections.Generic;
 using System.Linq;

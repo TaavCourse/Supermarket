@@ -1570,7 +1570,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Supermarket.Appication/1.0.0": {
+      "Supermarket.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1578,10 +1578,10 @@
           "Supermarket.Infa": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Supermarket.Appication.dll": {}
+          "bin/placeholder/Supermarket.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Supermarket.Appication.dll": {}
+          "bin/placeholder/Supermarket.Application.dll": {}
         }
       },
       "Supermarket.Domain/1.0.0": {
@@ -5880,10 +5880,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Supermarket.Appication/1.0.0": {
+    "Supermarket.Application/1.0.0": {
       "type": "project",
-      "path": "../Supermarket.Appication/Supermarket.Appication.csproj",
-      "msbuildProject": "../Supermarket.Appication/Supermarket.Appication.csproj"
+      "path": "../Supermarket.Appication/Supermarket.Application.csproj",
+      "msbuildProject": "../Supermarket.Appication/Supermarket.Application.csproj"
     },
     "Supermarket.Domain/1.0.0": {
       "type": "project",
@@ -5901,7 +5901,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.12",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.12",
-      "Supermarket.Appication >= 1.0.0",
+      "Supermarket.Application >= 1.0.0",
       "Supermarket.Domain >= 1.0.0",
       "Supermarket.Infa >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
@@ -5939,8 +5939,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Appication.csproj": {
-              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Appication.csproj"
+            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Application.csproj": {
+              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Application.csproj"
             },
             "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {
               "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj"

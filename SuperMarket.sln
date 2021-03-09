@@ -9,9 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migration", "Migration\Migr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supermarket.Domain", "Supermarket.Domain\Supermarket.Domain.csproj", "{4E5E5EA1-0488-4206-814B-66C14C5980BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.Infa", "Supermarket.Infa\Supermarket.Infa.csproj", "{BF5A9F10-6049-418B-AB54-404D6FAF7281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supermarket.Infa", "Supermarket.Infa\Supermarket.Infa.csproj", "{BF5A9F10-6049-418B-AB54-404D6FAF7281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supermarket.Appication", "Supermarket.Appication\Supermarket.Appication.csproj", "{F9B7D75C-6D94-4FA3-AE12-EEAB6AA228C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Supermarket.Application", "Supermarket.Appication\Supermarket.Application.csproj", "{F9B7D75C-6D94-4FA3-AE12-EEAB6AA228C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Info", "Info", "{3B2DA2A1-ED4B-4345-98D1-AF6B51109602}"
+	ProjectSection(SolutionItems) = preProject
+		git account info.txt = git account info.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
