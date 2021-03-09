@@ -1471,9 +1471,6 @@
       "Supermarket.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.12"
-        },
         "compile": {
           "bin/placeholder/Supermarket.Domain.dll": {}
         },
@@ -5624,11 +5621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Infa\\Supermarket.Infa.csproj",
+      "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Infa\\Supermarket.Infa.csproj",
       "projectName": "Supermarket.Infa",
-      "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Infa\\Supermarket.Infa.csproj",
+      "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Infa\\Supermarket.Infa.csproj",
       "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Infa\\obj\\",
+      "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Infa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5649,8 +5646,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {
-              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\Supermarket.Domain.csproj"
+            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {
+              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj"
             }
           }
         }

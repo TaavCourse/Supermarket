@@ -21,5 +21,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Supermarket.Appication\Supermarket.Appication.csproj" />
+    <ProjectReference Include="..\Supermarket.Domain\Supermarket.Domain.csproj" />
+    <ProjectReference Include="..\Supermarket.Infa\Supermarket.Infa.csproj" />
+  </ItemGroup>
+
 
 </Project>

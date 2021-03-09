@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SuperMarket.Controllers.Repository;
+using Supermarket.Appication.DTOs;
+using Supermarket.Appication.Goods;
+using Supermarket.Domain.Goods;
+using Supermarket.Infa.UOW;
 using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
 using SuperMarket.Models.Exceptions;
 using System;
 using System.Collections.Generic;
@@ -16,20 +18,20 @@ namespace SuperMarket.Controllers
     [Route("api/good-categories")]
     public class GoodCategoriesController : Controller
     {
-        private readonly ApplicationContex _context;
+        
         private readonly UnitOfWork _unitOfWork;
-        private GoodCategoryRepository _Repository;
+        private GoodCategoryRepository _GoodCategoryRepository;
 
-        public GoodCategoriesController(UnitOfWork unitOfWork, GoodCategoryRepository repository)
+        public GoodCategoriesController(UnitOfWork unitOfWork, GoodCategoryRepository goodCategoryRepository)
         {
-            _Repository = repository;
+            _GoodCategoryRepository = goodCategoryRepository;
             _unitOfWork = unitOfWork;
         }
-
+        //-----------------------------------------
         [HttpPost]
-        public void Add([Required][FromBody] string title)
+        public async Task Add([Required][FromBody] string title)
         {
-            if (_Repository.IsGoodCategoryDuplicated(title))
+            if (await _GoodCategoryRepository.IsGoodCategoryDuplicatedAsync(title))
             {
                 throw new GoodCategoryTitleCantBeDuplicatedExcption();
             }
@@ -39,41 +41,33 @@ namespace SuperMarket.Controllers
                 Title = title
             };
 
-            _Repository.Add(goodCategory);
-            _unitOfWork.Complete();
+            await _GoodCategoryRepository.AddAsync(goodCategory);
+           await  _unitOfWork.CompleteAsync();
         }
-
+        //----------------------------------------
         [HttpGet]
-        public IList<GetGoodCategoryDto> GetAll()
+        public async Task<IEnumerable<GetGoodCategoryDto>> GetAll()
         {
-            return _context.GoodCategories.Select
-                  (_ => new GetGoodCategoryDto
-                  {
-                      Id = _.Id,
-                      Title = _.Title
-                  }).ToList();
+            return await _GoodCategoryRepository.GetAll();
         }
-
+        //----------------------------------------
         [HttpPut("{id}")]
-        public void Update(int id, UpdateGoodCategoryDto dto)
+        public async Task Update(int id, UpdateGoodCategoryDto dto)
         {
-            var category = _context.GoodCategories.Find(id);
+            var category =await _GoodCategoryRepository.GetGoodCategoryByIdAsync(id);
 
             category.Title = dto.Title;
 
-            _context.SaveChanges();
+            await _unitOfWork.CompleteAsync();
         }
-
+        //----------------------------------------
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            var category = _context.GoodCategories.Find(id);
-            _context.GoodCategories.Remove(category);
-
-            /* var goodCategory = new GoodCategory { Id = id };
-             _context.Entry(goodCategory).State = EntityState.Deleted;*/
-
-            _context.SaveChanges();
+            var goodCategory =await _GoodCategoryRepository.GetGoodCategoryByIdAsync(id);
+            _GoodCategoryRepository.RemoveGoodCategory(goodCategory);
+            await _unitOfWork.CompleteAsync();
         }
+        //----------------------------------------
     }
 }

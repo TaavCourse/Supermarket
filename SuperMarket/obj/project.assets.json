@@ -1569,6 +1569,45 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Supermarket.Appication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Supermarket.Domain": "1.0.0",
+          "Supermarket.Infa": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Supermarket.Appication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Supermarket.Appication.dll": {}
+        }
+      },
+      "Supermarket.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Supermarket.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Supermarket.Domain.dll": {}
+        }
+      },
+      "Supermarket.Infa/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.12",
+          "Supermarket.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Supermarket.Infa.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Supermarket.Infa.dll": {}
+        }
       }
     }
   },
@@ -5840,6 +5879,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Supermarket.Appication/1.0.0": {
+      "type": "project",
+      "path": "../Supermarket.Appication/Supermarket.Appication.csproj",
+      "msbuildProject": "../Supermarket.Appication/Supermarket.Appication.csproj"
+    },
+    "Supermarket.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Supermarket.Domain/Supermarket.Domain.csproj",
+      "msbuildProject": "../Supermarket.Domain/Supermarket.Domain.csproj"
+    },
+    "Supermarket.Infa/1.0.0": {
+      "type": "project",
+      "path": "../Supermarket.Infa/Supermarket.Infa.csproj",
+      "msbuildProject": "../Supermarket.Infa/Supermarket.Infa.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5847,6 +5901,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.12",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.12",
+      "Supermarket.Appication >= 1.0.0",
+      "Supermarket.Domain >= 1.0.0",
+      "Supermarket.Infa >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -5857,11 +5914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\SuperMarket\\SuperMarket.csproj",
+      "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\SuperMarket\\SuperMarket.csproj",
       "projectName": "SuperMarket",
-      "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\SuperMarket\\SuperMarket.csproj",
+      "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\SuperMarket\\SuperMarket.csproj",
       "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\SuperMarket\\obj\\",
+      "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\SuperMarket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5881,7 +5938,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Appication.csproj": {
+              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Appication\\Supermarket.Appication.csproj"
+            },
+            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {
+              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj"
+            },
+            "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Infa\\Supermarket.Infa.csproj": {
+              "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Infa\\Supermarket.Infa.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\bin\Debug\netcoreapp3.1\Supermarket.Infa.deps.json
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\bin\Debug\netcoreapp3.1\Supermarket.Infa.dll
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\bin\Debug\netcoreapp3.1\Supermarket.Infa.pdb
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\bin\Debug\netcoreapp3.1\Supermarket.Domain.dll
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\bin\Debug\netcoreapp3.1\Supermarket.Domain.pdb
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.csprojAssemblyReference.cache
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.AssemblyInfoInputs.cache
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.AssemblyInfo.cs
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.csproj.CoreCompileInputs.cache
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.csproj.CopyComplete
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.dll
+C:\Users\ss\Desktop\@Jabbekhaneh\Project\Supermarket\Supermarket.Infa\obj\Debug\netcoreapp3.1\Supermarket.Infa.pdb

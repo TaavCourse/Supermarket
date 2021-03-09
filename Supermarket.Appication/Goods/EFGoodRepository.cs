@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Supermarket.Domain;
+﻿using Supermarket.Infa;
 using Supermarket.Domain.Goods;
+using Supermarket.Infa;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Supermarket.Appication.Goods
 {
@@ -12,14 +13,15 @@ namespace Supermarket.Appication.Goods
     {
         Task<Good> AddGoodAsync(Good good);
         Task<List<Good>> GetAllAsync();
+        Task<bool> IsExistGoodByCodeAsync(string code);
     }
     //////////////////////////////////////////////////////////////////////
     public class EFGoodRepository : GoodRepository
     {
         //------------------------------------------------------
-        private readonly dbApplication _context;
+        private readonly dbAppication _context;
         //------------------------------------------------------
-        public EFGoodRepository(dbApplication contex)
+        public EFGoodRepository(dbAppication contex)
         {
             _context = contex;
         }
@@ -35,6 +37,11 @@ namespace Supermarket.Appication.Goods
             return await  _context.Goods.ToListAsync();
         }
         //------------------------------------------------------
-        
+        public async Task<bool> IsExistGoodByCodeAsync(string code)
+        {
+            return await _context.Goods.AnyAsync(_ => _.Code == code);
+        }
+        //------------------------------------------------------
+
     }
 }

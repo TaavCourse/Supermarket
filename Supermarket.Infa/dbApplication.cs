@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace Supermarket.Domain
+namespace Supermarket.Infa
 {
     public  class dbAppication:DbContext
     {

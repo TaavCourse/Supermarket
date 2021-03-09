@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {}
+    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {
+    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\Supermarket.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj",
         "projectName": "Supermarket.Domain",
-        "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\Supermarket.Domain.csproj",
+        "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\Supermarket.Domain.csproj",
         "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Supermarket.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Supermarket.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,12 +43,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.12, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

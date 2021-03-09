@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Migration\\Migration.csproj": {}
+    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Migration\\Migration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Migration\\Migration.csproj": {
+    "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Migration\\Migration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Migration\\Migration.csproj",
+        "projectUniqueName": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Migration\\Migration.csproj",
         "projectName": "Migration",
-        "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Migration\\Migration.csproj",
+        "projectPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Migration\\Migration.csproj",
         "packagesPath": "C:\\Users\\ss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\SuperMarket\\Migration\\obj\\",
+        "outputPath": "C:\\Users\\ss\\Desktop\\@Jabbekhaneh\\Project\\Supermarket\\Migration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

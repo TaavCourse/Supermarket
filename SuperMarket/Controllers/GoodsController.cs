@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Supermarket.Appication.DTOs;
+using Supermarket.Appication.Goods;
+using Supermarket.Domain.Goods;
+using Supermarket.Infa.UOW;
 using SuperMarket.Models;
-using SuperMarket.Models.Dtos;
 using SuperMarket.Models.Exceptions;
 using System;
 using System.Collections.Generic;
@@ -12,16 +15,18 @@ namespace SuperMarket.Controllers
     [ApiController,Route("api/goods")]
     public class GoodsController : Controller
     {
-        private readonly ApplicationContex _context;
-        public GoodsController()
+        private readonly GoodRepository _goodRepository;
+        private readonly UnitOfWork _UOW;
+        public GoodsController(GoodRepository goodRepository,UnitOfWork unitOfWork)
         {
-            _context = new  ApplicationContex();
+            _goodRepository = goodRepository;
+            _UOW = unitOfWork;
         }
-
+        //----------------------------------------
         [HttpPost]
-        public void Add([FromBody]AddGoodDto dto)
+        public async Task Add([FromBody]AddGoodDto dto)
         {
-            if(_context.Goods.Any(_ => _.Code == dto.Code))
+            if(await _goodRepository.IsExistGoodByCodeAsync(dto.Code))
             {
                 throw new GoodCodeCantBeDuplicateException();
             }
@@ -34,9 +39,10 @@ namespace SuperMarket.Controllers
                 CategoryId = dto.CategoryId
             };
 
-            _context.Goods.Add(good);
+            await _goodRepository.AddGoodAsync(good);
 
-            _context.SaveChanges();
+           await  _UOW.CompleteAsync();
         }
+        //----------------------------------------
     }
 }
